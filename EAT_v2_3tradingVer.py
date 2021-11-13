@@ -191,8 +191,8 @@ def getcurrent():
 
 def amountgetter():
     money = BGDF()
-    if BGDF() > 30000:
-        money = 30000
+    if BGDF() > 50000:
+        money = 50000
     amountget = round(money/getcurrent(),6)*0.985
     return amountget
 
