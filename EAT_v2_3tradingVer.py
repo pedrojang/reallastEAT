@@ -335,7 +335,7 @@ while True:
         if nownow()%5 == 0:  # 5분마다 한번씩 행동하는 것 (5분으로 나누어 떨어지지 않을 시 행동하지 않음)
             # stu3 바뀐것 추가해서 넣기 
             if not(actiontime == nownow()):
-                actiontime == nownow()
+                actiontime = nownow()
                 etherinfo = GetPD(1)
                 ls_mids = etherinfo.mid.tolist()
                 ls_opens = etherinfo.open.tolist()
